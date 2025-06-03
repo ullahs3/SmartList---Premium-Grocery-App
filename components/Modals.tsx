@@ -288,10 +288,6 @@ export const PremiumModal: React.FC<PremiumModalProps> = ({
           <View style={AppStyles.premiumFeatures}>
             {[
               'Unlimited AI Recipe Analysis',
-              'Advanced Meal Planning Calendar',
-              'Nutrition Tracking & Health Goals',
-              'Price Comparison & Store Alerts',
-              'Cloud Sync Across All Devices'
             ].map((feature, index) => (
               <View key={index} style={AppStyles.premiumFeature}>
                 <Icon name="checkmark-circle" size={20} color={colors.success} />
@@ -301,9 +297,8 @@ export const PremiumModal: React.FC<PremiumModalProps> = ({
           </View>
 
           <TouchableOpacity style={AppStyles.freeTrialButton} onPress={onStartTrial}>
-            <Text style={AppStyles.freeTrialButtonText}>Start 7-Day Free Trial</Text>
+            <Text style={AppStyles.freeTrialButtonText}>$1.99</Text>
           </TouchableOpacity>
-          <Text style={AppStyles.pricingText}>Then $4.99/month • Cancel anytime</Text>
         </View>
       </View>
     </View>

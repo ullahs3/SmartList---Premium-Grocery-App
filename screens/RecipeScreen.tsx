@@ -85,21 +85,14 @@ const RecipeScreen: React.FC<RecipeScreenProps> = ({
           <View style={AppStyles.premiumTeaser}>
             <View style={AppStyles.premiumHeader}>
               <Icon name="crown" size={20} color={colors.warning} />
-              <Text style={AppStyles.premiumTeaserTitle}>Premium Features</Text>
+              <Text style={AppStyles.premiumTeaserTitle}>Go Premium</Text>
             </View>
+
             <View style={AppStyles.featureList}>
-              <View style={AppStyles.feature}>
-                <Icon name="star" size={16} color={colors.warning} />
-                <Text style={AppStyles.featureText}>Unlimited recipe parsing</Text>
-              </View>
-              <View style={AppStyles.feature}>
-                <Icon name="calendar" size={16} color={colors.warning} />
-                <Text style={AppStyles.featureText}>Advanced meal planning</Text>
-              </View>
-              <View style={AppStyles.feature}>
-                <Icon name="fitness" size={16} color={colors.warning} />
-                <Text style={AppStyles.featureText}>Nutrition tracking & goals</Text>
-              </View>
+              <Text style={AppStyles.premiumTeaserTitle}>Unlock Unlimited Recipe Magic</Text>
+              <Text style={[AppStyles.featureText, { textAlign: 'center', marginVertical: 16 }]}>
+                Parse unlimited recipes into shopping lists with our AI-powered Recipe Magic feature.
+              </Text>
             </View>
             <TouchableOpacity
               style={AppStyles.upgradeButton}
