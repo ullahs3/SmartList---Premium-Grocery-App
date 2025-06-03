@@ -1,6 +1,6 @@
 import React from 'react';
 import { View, Text, TextInput, TouchableOpacity, Modal, ScrollView } from 'react-native';
-import Icon from './Icon.js';
+import Icon from './Icon.tsx';
 import { GroceryList, GroceryItem } from './StickyNote.js';
 import { AppStyles, colors } from '../styles/AppStyles.js';
 
