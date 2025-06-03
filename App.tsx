@@ -59,7 +59,7 @@ const SmartListApp = () => {
 
   // Initialize Gemini service
   const [geminiService] = useState(() => new GeminiService(
-    'AIzaSyBr2XI4PGjYwmO9uiwptjTUJdSI1zzmeWs',
+    'Your_API_Key',
     isPremium
   ));
 
