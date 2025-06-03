@@ -1,7 +1,6 @@
 This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
 
-[# Getting Started
-![Demo Video](./assets/demo-video.mp4)](https://github.com/ullahs3/SmartList---Premium-Grocery-App/issues/1#issue-3115282827)
+https://github.com/user-attachments/assets/b0037336-279a-4db6-ac9b-725ef10337b5
 > **Note**: Make sure you have completed the [Set Up Your Environment](https://reactnative.dev/docs/set-up-your-environment) guide before proceeding.
 
 ## Step 1: Start Metro
