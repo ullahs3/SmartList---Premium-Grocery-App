@@ -1,7 +1,7 @@
 import React from 'react';
 import { View, Text, TextInput, TouchableOpacity, Modal, ScrollView } from 'react-native';
-import Icon from './Icon';
-import { GroceryList, GroceryItem } from './StickyNote';
+import Icon from './Icon.js';
+import { GroceryList, GroceryItem } from './StickyNote.js';
 import { AppStyles, colors } from '../styles/AppStyles.js';
 
 // New List Modal
