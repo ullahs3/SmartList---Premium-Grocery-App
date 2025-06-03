@@ -1,4 +1,4 @@
-# SmartList 🛒✨
+# SmartList 🛒
 
 **Smart Grocery Planning Made Simple**
 
@@ -6,31 +6,31 @@ SmartList is an intelligent grocery list app that transforms your recipe plannin
 
 https://github.com/user-attachments/assets/b0037336-279a-4db6-ac9b-725ef10337b5
 
-## 🌟 Features
+##  Features
 
-### 📝 Multiple Grocery Lists
+###  Multiple Grocery Lists
 - Create unlimited grocery lists with colorful sticky note designs
 - Each list has its own unique color and name
 - Switch between lists seamlessly
 
-### 🤖 AI Recipe Magic
+###  AI Recipe Magic
 - **Recipe-to-Ingredients Parsing**: Paste any recipe and let AI extract ingredients automatically
 - **Smart Ingredient Detection**: Automatically categorizes ingredients (Produce, Dairy, Meat & Seafood, etc.)
 - **Selective Adding**: Choose which ingredients to add and which to skip
 - **Multi-List Support**: Select which grocery list to add parsed ingredients to
 
-### ✅ Smart List Management
+###  Smart List Management
 - Check off items as you shop
 - Delete items you no longer need
 - Clean, intuitive interface
 - Real-time list updates
 
-### 💎 Premium Features
+###  Premium Features
 - Unlimited recipe parsing (Free tier: 3 recipes)
 - Enhanced AI processing
 - Premium badge and priority support
 
-## 🏗️ Architecture
+##  Architecture
 
 ```
 SmartList/
@@ -49,7 +49,7 @@ SmartList/
     └── AppStyles.js       # Application styling
 ```
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 - React Native development environment
@@ -99,7 +99,7 @@ SmartList/
    npx react-native run-android
    ```
 
-## 📱 How to Use
+##  How to Use
 
 ### Creating Your First List
 1. Open the app to see the overview screen
@@ -122,7 +122,7 @@ SmartList/
 - **Check Off Items**: Tap the checkbox next to each item
 - **Delete Items**: Swipe or use the delete option
 
-## 🧠 AI Features
+##  AI Features
 
 ### Recipe Parsing Intelligence
 The app uses Google's Gemini AI to:
@@ -142,7 +142,7 @@ If AI parsing fails, the app includes intelligent local parsing that:
 - **Premium**: Unlimited parsing
 - Usage tracking with visual indicators
 
-## 🛠️ Technical Details
+##  Technical Details
 
 ### Key Dependencies
 - **React Native**: Mobile app framework
@@ -176,21 +176,21 @@ If AI parsing fails, the app includes intelligent local parsing that:
 - AsyncStorage for persistence
 - Real-time updates across components
 
-## 🎨 Design Features
+##  Design Features
 
 ### Sticky Note Interface
 - 8 vibrant colors for list organization
 - Intuitive visual design
 - Touch-friendly interactions
 
-## 🔒 Privacy & Security
+##  Privacy & Security
 
 - All data stored locally on device
 - API calls made securely to Google services
 - No personal data collection beyond usage statistics
 - Recipe content processed temporarily for parsing only
 
-## 🤝 Contributing
+##  Contributing
 
 We welcome contributions! Please see our contributing guidelines for:
 - Code style requirements
@@ -198,16 +198,16 @@ We welcome contributions! Please see our contributing guidelines for:
 - Issue reporting
 - Feature requests
 
-## 📄 License
+##  License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 - Google Gemini AI for intelligent recipe parsing
 - React Native community for excellent tooling
 
-## 📞 Support
+##  Support
 
 For support, feature requests, or bug reports:
 - Open an issue on GitHub
