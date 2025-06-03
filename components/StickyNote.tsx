@@ -1,5 +1,5 @@
 import React from 'react';
-import { View, Text, TouchableOpacity } from 'react-native';
+import { View, Text, TouchableOpacity, Alert } from 'react-native';
 import Icon from './Icon';
 import { colors } from '../styles/AppStyles';
 
@@ -33,6 +33,11 @@ const StickyNote: React.FC<StickyNoteProps> = ({ list, onSelect, onDelete, canDe
     return Math.round((completed / list.items.length) * 100);
   };
 
+  const handleDelete = () => {
+    // Just call onDelete directly - confirmation handled in parent component
+    onDelete(list.id);
+  };
+
   return (
     <TouchableOpacity
       onPress={() => onSelect(list)}
@@ -52,15 +57,19 @@ const StickyNote: React.FC<StickyNoteProps> = ({ list, onSelect, onDelete, canDe
     >
       {canDelete && (
         <TouchableOpacity
-          onPress={() => onDelete(list.id)}
+          onPress={handleDelete}
           style={{
             position: 'absolute',
             top: 8,
             right: 8,
-            padding: 4
+            padding: 4,
+            backgroundColor: 'rgba(255, 255, 255, 0.8)',
+            borderRadius: 12,
+            zIndex: 1
           }}
+          hitSlop={{ top: 5, bottom: 5, left: 5, right: 5 }}
         >
-          <Icon name="trash" size={16} color="#666" />
+          <Icon name="trash" size={16} color="#dc2626" />
         </TouchableOpacity>
       )}
       
